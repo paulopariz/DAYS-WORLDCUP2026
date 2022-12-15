@@ -1,26 +1,56 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div class="bg">
+      <h1>WORLD CUP 2026</h1>
+      <AppCore />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import AppCore from './components/AppCore.vue'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { AppCore
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.bg{
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  background-image: url('../src/assets/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+h1{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 3.875rem;
+  padding-top: 30px;
+}
+
+@media(max-width: 620px){
+    h1{
+        font-size: 2.75rem;
+    }
+  }
+@media(max-width: 440px){
+  h1{
+    font-size: 2rem;
+  }
 }
 </style>
