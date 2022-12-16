@@ -1,11 +1,13 @@
 <h2 align ="center">DAYS WORLD CUP</h2>
 
-<br><br>
+<br>
 
 <p align="center">Mini-projeto com VueJS. Contador de dias, horas, minutos e segundos até dia 8 de Julho de 2026, onde estreia a copa</p>
 
+<br><br>
+
 ## 📍  DEPLOY
-- <a href="https://days-copa-2026.vercel.app/">ACESSE O SITE AQUI</a>
+- <a href="https://days-worldcup-2026.vercel.app/">ACESSE O SITE AQUI</a>
 
 <br>
 
@@ -25,7 +27,7 @@ git clone https://github.com/paulopariz/DAYS-WORLDCUP2026.git
 ```
 
 ```
-cd COPA2026-DAYS
+cd DAYS-WORLDCUP2026
 ```
 
 ```
